@@ -3,7 +3,7 @@
 namespace NotificationChannels\Apn;
 
 use Exception;
-use Illuminate\Events\Dispatcher;
+use October\Rain\Events\Dispatcher;
 use Illuminate\Notifications\Notification;
 use ZendService\Apple\Apns\Client\Message as Client;
 use NotificationChannels\Apn\Exceptions\SendingFailed;
